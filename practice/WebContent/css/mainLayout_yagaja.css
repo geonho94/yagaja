@@ -1,0 +1,118 @@
+@charset "UTF-8"
+body{
+	background-color: #fff;
+	direction: 1tr;
+	line-height: 1.34;
+	margin: 0;
+	padding: 0;
+	height: 300px;
+	unicode-bidi: embed;
+	background-color: #f0f2f5;
+}
+#footer {
+	text-align: center;
+}
+#loginSection{ /*공통 바디 세션영역*/
+	height: 450px;
+	width: 900px;
+	margin: 100px auto;
+	
+}
+.left{ /*로그인창 왼쪽*/
+	float : left;
+	text-align: left;
+	width: 500px;
+	padding: 10px 20px;
+}
+.right{ /*로그인창 오른쪽*/
+	display: inline-block;
+	
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+.memberjoin, .idsearch, .passwordIdSearch, .passwordEmailSearch, .passwordRe{/*회원가입,아이디찾기,비밀번호찾기 */
+	
+	text-align : center;
+	
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+	
+}
+#loginSection table{/*회원가입_테이블*/
+	margin : 100px auto;
+}
+.right_control{
+	right: 0;
+	left: auto;
+	top: 0;
+	bottom:0;
+	width:15%;
+	font-size:20px;
+	text-align:center;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	float: right;
+}
+.left_control{
+	right: 0;
+	left: auto;
+	top: 0;
+	bottom:0;
+	width:15%;
+	font-size:20px;
+	text-align:center;
+	background-repeat: repeat-x;
+	text-decoration: none;
+	float: left;
+}
+/*병길이 메뉴바 css*/
+#nav {
+   margin:0px;
+   top: 40px;
+   left: 0px;
+   width: 300px;
+   height: 650px;
+   background-color : black;
+   color: black;
+   background-color: #ebccd1;
+   position:fixed;
+   box-shadow: 1px 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+#nav li {
+   display: inline;
+}
+
+#nav, #toggle {
+   display: none;
+}
+
+#toggle:checked+#nav {
+   display: inline;
+}
+
+header {
+   margin:0px;
+   position: fixed;
+   width:100%;
+   height: 40px;
+   background-color:#f2dede;
+   font-weight: bold;
+   display: flex;
+}
+
+#main_top {
+   height: 40px;
+}
+#toggle_label:hover {
+	background-color: #d49466;
+	border-radius: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+} 
+/*여기까지*/
+
+#likeList{/*좋아요 리스트*/
+	background-color: #d49466;
+	border-radius: 30px;
+	padding-right: 0px;
+
+}
